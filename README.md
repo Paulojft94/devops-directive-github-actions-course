@@ -52,6 +52,7 @@ git clone --recurse-submodules git@github.com:sidpalas/devops-directive-github-a
 > The GitHub Actions extension modifies the "file type" of wiles within /.github/workflows/ causing the YAML extension to not recognize those files.
 > To fix this, you can add an explicit `files.associations` entry to your settings
 > 
+
 > ```json
 > {
 >   "files.associations": {
